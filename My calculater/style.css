@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Josefin+Sans&family=Kalam&family=Klee+One&family=Roboto&family=Satisfy&display=swap');
+
+html {
+    width: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100%;
+    background-color: #ffffffc8;
+}
+
+h1{
+    font-size: 5rem;
+    color: #f18c18;
+    -webkit-text-stroke:1px #070707;
+}
+
+.text-center {
+    text-align: center;
+    background-color: #94ea25;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px -7px rgba(0, 0, 0,.7);
+
+}
+
+.equal{
+    padding: 8px 58px 10px 52px;
+    width: 52px;
+    border-radius: 10px;
+    margin: 0 3px; 
+    border: 2px solid black;
+    cursor:pointer;
+    background-color: #f18c18;
+
+} 
+
+
+
+.calculater{
+background-color: rgb(31, 31, 29);
+padding: 20px 0px 20px;
+border-radius: 20px;
+border: 2px solid black;
+/* width: 320px; */
+}
+.container{
+    
+    padding: 15px;
+    border-radius: 10px;
+    border: 6px solid rgb(219, 157, 32);
+    background-color: #30b589;
+    
+}
+
+.row{
+margin: 8px 0;  
+}
+.row input{
+    font-size: 18px;
+    font-style:oblique;
+    margin: 2px;
+    padding: 10px 0px 10px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #c9ab16;
+}
+
+button {
+    padding: 10px;
+    width: 52px;
+    border-radius: 15px;
+    margin: 0 3px;
+    border: 2px solid black;
+    cursor:pointer;
+    background-color: #5ca1e1;
+    color:white;
+    text-align: center;
+    font-size: 32px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    }
+
+button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button:after {
+    position:absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+    
+    
+}
+
+button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
